@@ -1,10 +1,15 @@
+///////////////////////////
+// NodeMCU Motor Control//
+// By Shubham Santosh////
+////////////////////////
+
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 #include <ESP8266WebServer.h>
 
 // Replace with your network credentials
-const char* ssid = "Shubham S";         
-const char* password = "1234shubham";
+const char* ssid = "your SSID";         
+const char* password = "your Password";
 
 ESP8266WebServer server(80);   //instantiate server at port 80 (http port)
 
